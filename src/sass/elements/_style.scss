@@ -165,7 +165,11 @@ a {
     line-height: 1;
     letter-spacing: -0.05em;
     text-transform: uppercase;
-    background: linear-gradient(270.16deg, var(--px-theme-2) 5.74%, var(--px-theme) 92.05%);
+    background: linear-gradient(
+      270.16deg,
+      var(--px-theme-2) 5.74%,
+      var(--px-theme) 92.05%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -226,7 +230,11 @@ a {
       line-height: 1;
       letter-spacing: -0.05em;
       text-transform: uppercase;
-      background: linear-gradient(270.16deg, var(--px-theme-2) 5.74%, var(--px-theme) 92.05%);
+      background: linear-gradient(
+        270.16deg,
+        var(--px-theme-2) 5.74%,
+        var(--px-theme) 92.05%
+      );
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -399,7 +407,11 @@ a {
             }
           }
           .services-title {
-            background: linear-gradient(270.16deg, var(--px-theme-2) 5.74%, var(--px-theme) 92.05%);
+            background: linear-gradient(
+              270.16deg,
+              var(--px-theme-2) 5.74%,
+              var(--px-theme) 92.05%
+            );
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -534,11 +546,24 @@ a {
     flex-direction: column;
     height: 100%;
     p {
-      font-size: 27px;
+      font-size: 33px;
       font-weight: 600;
       line-height: 1.4;
-      margin-bottom: 40px;
       @include down-sm {
+        font-size: 24px;
+      }
+    }
+    a {
+      margin-bottom: 10px;
+      color: #ffffff;
+      text-decoration: none;
+    }
+    .tools {
+      font-size: 24px;
+      line-height: 1.4;
+
+      .toolSpan {
+        color: #c3c5c7;
         font-size: 24px;
       }
     }
@@ -700,7 +725,11 @@ a {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(270.16deg, var(--px-theme-2) 5.74%, var(--px-theme) 92.05%);
+      background: linear-gradient(
+        270.16deg,
+        var(--px-theme-2) 5.74%,
+        var(--px-theme) 92.05%
+      );
       color: var(--px-white);
       font-size: 20px;
     }

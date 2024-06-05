@@ -8,7 +8,7 @@ const Testimonial = ({ data }) => {
   return (
     <section className="section testimonials-section bg-g">
       <div className="container">
-        <SectionHeading title="What they says" subTitle="Testimonial" />
+        <SectionHeading title="My projects" subTitle="Overview" />
         <div className="testimonials">
           <Carousel data={testimonialInfo} />
         </div>
@@ -16,7 +16,7 @@ const Testimonial = ({ data }) => {
           <Carousel data={brandInfo} />
         </div>
       </div>
-    </section >
+    </section>
   )
 }
 Testimonial.propTypes = {

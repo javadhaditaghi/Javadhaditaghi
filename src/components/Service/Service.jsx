@@ -16,9 +16,8 @@ const Service = ({ data }) => {
             >
               <div className="accordion-header">
                 <button
-                  className={`accordion-button ${
-                    element.triger !== 'One' ? 'collapsed' : ''
-                  }`}
+                  className={`accordion-button ${element.triger !== 'One' ? 'collapsed' : ''
+                    }`}
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target={`#${element.triger}`}
@@ -32,9 +31,8 @@ const Service = ({ data }) => {
               </div>
               <div
                 id={`${element.triger}`}
-                className={`accordion-collapse collapse ${
-                  element.triger === 'One' ? 'show' : ''
-                }`}
+                className={`accordion-collapse collapse ${element.triger === 'One' ? 'show' : ''
+                  }`}
                 data-bs-parent="#accordion_services"
               >
                 <div className="accordion-body">
