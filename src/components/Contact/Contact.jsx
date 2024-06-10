@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import { Icon } from "@iconify/react";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import { useState } from "react";
-
+import emailjs from 'emailjs-com';
 
 const Contact = ({ data }) => {
   const { contactInfo, contactForm } = data;
@@ -24,29 +24,30 @@ const Contact = ({ data }) => {
     }));
   };
 
-  const onSubmit = async (event) => {
+  const onSubmit = (event) => {
     event.preventDefault();
     setLoading(true);
-    const formData = new FormData(event.target);
-    formData.append("access_key", "fcc74231-656a-425b-a54f-aff38354fadb");
 
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
+    const templateParams = {
+      from_name: formData.name,
+      reply_to: formData.email,
+      subject: formData.subject,
+      message: formData.message,
+    };
 
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json"
-      },
-      body: json
-    }).then((res) => res.json());
 
-    if (res.success) {
-      setFormData({ name: "", email: "", subject: "", message: "" });
-      setLoading(false)
-    }
+
+    emailjs.send('service_da38xur', 'template_h6axh2k', templateParams, "3QBRRLiK-ewtAyb4D")
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+        setFormData({ name: "", email: "", subject: "", message: "" });
+        setLoading(false);
+      }, (err) => {
+        console.error('FAILED...', err);
+        setLoading(false);
+      });
   };
+
   return (
     <section
       id="contact"
@@ -56,7 +57,7 @@ const Contact = ({ data }) => {
       <div className="container">
         <div className="row gy-5">
           <div className="col-lg-5">
-            <SectionHeading title="Reach out me" subTitle="Contact" />
+            <SectionHeading title="Reach out to me" subTitle="Contact" />
             <div className="contact-info">
               <ul>
                 {contactInfo.map((element, index) => (
@@ -187,7 +188,5 @@ const Contact = ({ data }) => {
 Contact.propTypes = {
   data: PropTypes.object
 }
-
-
 
 export default Contact;

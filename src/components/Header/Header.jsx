@@ -33,9 +33,8 @@ const Header = ({ data }) => {
       {/* End */}
       {/* Header Top */}
       <div
-        className={`header-left-fixed one-page-nav ${
-          mobileToggle ? 'menu-open' : ''
-        }`}
+        className={`header-left-fixed one-page-nav ${mobileToggle ? 'menu-open' : ''
+          }`}
       >
         {/* Brand */}
         <div className="logo">
@@ -83,7 +82,7 @@ const Header = ({ data }) => {
               duration={500}
               onClick={() => setMobileToggle(false)}
             >
-              Services
+              SPECIALTIES
             </ScrollLink>
           </li>
           <li>
@@ -103,7 +102,7 @@ const Header = ({ data }) => {
               duration={500}
               onClick={() => setMobileToggle(false)}
             >
-              Blog
+              Readings
             </ScrollLink>
           </li>
           <li>

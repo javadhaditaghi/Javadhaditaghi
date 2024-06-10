@@ -24,7 +24,7 @@
         "icon": "linkedin"
       },
       {
-        "link": "https://www.linkedin.com/in/javad-haditaghi",
+        "link": "https://t.me/JavadHad90",
         "icon": "telegram"
       }
     ]
@@ -499,24 +499,24 @@
   },
   "footerData": {
     "ImgLink": "/images/about-banner.png",
-    "name": "lilon williamson"
+    "name": "Javad Haditaghi"
   },
   "socialData": [
     {
-      "icon": "twitter",
-      "link": ""
+      "link": "https://github.com/javadhaditaghi",
+      "icon": "github"
     },
     {
-      "icon": "instagram",
-      "link": ""
+      "link": "https://scholar.google.com/citations?user=WugVbXEAAAAJ&hl=en",
+      "icon": "google-scholar"
     },
     {
-      "icon": "facebook",
-      "link": ""
+      "link": "https://www.linkedin.com/in/javad-haditaghi",
+      "icon": "linkedin"
     },
     {
-      "icon": "pinterest",
-      "link": ""
+      "link": "https://t.me/JavadHad90",
+      "icon": "telegram"
     }
   ]
 }
