@@ -123,28 +123,28 @@
       "title": "Data Analysis and NLP",
       "heading": "Tools & Technologies: Pandas, NumPy, PyTorch, Matplotlib, Seaborn, scikit-learn, Keras, Beautiful Soup, Scrapy, Selenium, NLTK",
       "triger": "Two",
-      "imgLink": "/images/services-2.jpg",
+      "imgLink": "/images/dataandnlp.svg",
       "text": "In my work with Data Analysis and Natural Language Processing (NLP), I utilize advanced tools and technologies such as Pandas, NumPy, PyTorch, Matplotlib, Seaborn, scikit-learn, Keras, Beautiful Soup, Scrapy, Selenium, and NLTK. Leveraging these, I have developed a sophisticated recommendation system for Iranian stores, using AI-trained models and NLP techniques to provide personalized shopping experiences. Additionally, I have trained a deep learning model to accurately predict the best housing prices in various areas of Mashhad, combining deep learning methods with exploratory data analysis to uncover significant market trends and insights."
     },
     {
       "title": "Web Development",
       "heading": "Tools & Technologies: React.js, Next.js, Node.js, HTML, CSS, JavaScript, Sass, Material-UI, Tailwind, Bootstrap, jQuery, Ajax",
       "triger": "One",
-      "imgLink": "/images/services-1.jpg",
+      "imgLink": "/images/WebDeveloper.svg",
       "text": "In my work with Web Development, I utilize a diverse set of tools and technologies including React.js, Next.js, Node.js, HTML, CSS, JavaScript, Sass, Material-UI, Tailwind, Bootstrap, jQuery, and Ajax. I have designed and developed the Golden Saffron website using HTML, CSS, JavaScript, Ajax, Bootstrap, and pure PHP, creating a visually appealing and functional online presence. Additionally, I developed a Consumer Magazine website with React and Material-UI, ensuring a dynamic and responsive user interface. I also created a Restaurant dashboard using React and Next.js, delivering a seamless and efficient management platform. These projects, among others, showcase my capability to build robust and engaging web applications."
     },
     
     {
       "title": "Programming Languages",
       "heading": "Tools & Technologies: Python, JavaScript (ES6, ES5) , php, LATEX",
-      "imgLink": "/images/services-3.jpg",
+      "imgLink": "/images/programming.png",
       "text": "In my programming endeavors, I utilize a range of languages and technologies including Python, JavaScript (ES6, ES5), PHP, and LaTeX. My Python expertise has been instrumental in developing AI-driven recommendation systems and deep learning models for various applications, such as predicting housing prices and analyzing data trends. I have extensively used JavaScript for front-end development, employing it in projects like the Golden Saffron website and the Consumer Magazine website, utilizing frameworks such as React and Next.js. Additionally, I have leveraged PHP for server-side development in projects like the Golden Saffron website. For documentation and academic writing, I rely on LaTeX to produce professional and well-structured documents."
     },
     {
       "title": "Project Management",
       "heading": "GitHub, GitLab, Trello, Jira, Slack",
       "triger": "Four",
-      "imgLink": "/images/services-4.jpg",
+      "imgLink": "/images/project.png",
       "text": "In my project management practices, I utilize a variety of tools including GitHub, GitLab, Trello, Jira, and Slack. I primarily use GitHub for version control and collaborative coding, ensuring seamless integration and continuous delivery. Trello is my go-to for task management and organization, allowing me to visualize project progress and prioritize tasks effectively. For team communication and collaboration, I rely on Slack to maintain clear and efficient communication channels, facilitating real-time discussions and updates. These tools enable me to manage projects efficiently, ensuring timely delivery and high-quality outcomes."
     }
   ],
