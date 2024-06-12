@@ -150,7 +150,7 @@
   ],
   "portfolioData": [
     {
-      "ImgLink": "/images/services-1.jpg",
+      "ImgLink": "/images/meta_js_cert.png",
       "subTitle": "META",
       "title": "Programming with JavaScript",
       "link": "https://www.coursera.org/account/accomplishments/verify/EH9JS2FEM925?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
@@ -170,7 +170,7 @@
       ]
     },
     {
-      "ImgLink": "/images/services-2.jpg",
+      "ImgLink": "/images/python.png",
       "subTitle": "MFT",
       "title": "Python Programming",
       "link": "",
@@ -190,7 +190,7 @@
       ]
     },
     {
-      "ImgLink": "/images/services-3.jpg",
+      "ImgLink": "/images/advancedPython.png",
       "subTitle": "MFT",
       "title": "Advanced Python Programming",
       "link": "",
@@ -211,7 +211,7 @@
     }
     ,
     {
-      "ImgLink": "/images/services-4.jpg",
+      "ImgLink": "/images/webDesign.png",
       "subTitle": "MFT",
       "title": "Web Design",
       "link": "",
@@ -253,7 +253,7 @@
     }
     ,
     {
-      "ImgLink": "/images/services-4.jpg",
+      "ImgLink": "/images/udemy_htmlandcss.png",
       "subTitle": "MFT",
       "title": "HTML5 & CSS3: Build Websites like a Pro",
       "link": "",
@@ -373,7 +373,7 @@
       },
       "info": [
         {
-          "imgLink": "/images/avatar-1.jpg",
+          "imgLink": "/images/golden.png",
           "link": "https://www.goldensaffron.com",
           "name": "",
           "designation": "",
@@ -382,7 +382,7 @@
 
         },
         {
-          "imgLink": "/images/avatar-1.jpg",
+          "imgLink": "/images/cute.png",
           "link": "https://www.cutiebeauti.com/",
           "name": "",
           "designation": "",
@@ -390,7 +390,7 @@
           "technologies": "Html, Css, JavaScript, Php"
         },
         {
-          "imgLink": "/images/avatar-1.jpg",
+          "imgLink": "/images/consumermag.png",
           "link": "https://theconsumermagazine.com/reviews/",
           "name": "",
           "designation": "",
@@ -399,7 +399,7 @@
         }
         ,
         {
-          "imgLink": "/images/avatar-1.jpg",
+          "imgLink": "/images/restaurant.png",
           "link": "https://github.com/javadhaditaghi/restaurant-dashboard-React-",
           "name": "",
           "designation": "",
