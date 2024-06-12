@@ -1,6 +1,6 @@
 {
   "headerData": {
-    "logoDark": "/images/logo.svg",
+    "logoDark": "/images/javad.png",
     "logoLight": "/images/logo-light.svg"
   },
   "heroData": {
@@ -408,16 +408,16 @@
         }
         ,
         {
-          "imgLink": "/images/avatar-1.jpg",
+          "imgLink": "/images/housing.png",
           "link": "https://github.com/javadhaditaghi/restaurant-dashboard-React-",
           "name": "",
           "designation": "",
-          "text": "The Analysis of Housing Price in Mashhad", 
+          "text": "The Analysis of Housing Prices in Mashhad", 
           "technologies": "Python (various libraries)"
         }
         ,
         {
-          "imgLink": "/images/avatar-1.jpg",
+          "imgLink": "/images/noise.jpg",
           "link": "https://github.com/javadhaditaghi/restaurant-dashboard-React-",
           "name": "",
           "designation": "",
@@ -477,24 +477,24 @@
     "contactInfo": [
       {
         "icon": "chat-left-dots-fill",
-        "title": "Chat to us",
-        "text": "Our friendly team is there to help.",
-        "emailLink": "info@domainname.com"
+        "title": "Let's Connect",
+        "text": "I'm here to assist with any questions or inquiries. Reach out to me at ",
+        "emailLink": "javadht1990a@gmail.com"
       },
       {
-        "icon": "compass",
-        "title": "Visit us",
-        "text": "Come say hello at ur office HQ. Warnwe Park Streetperrine, FL 33157 New York City"
+        "icon": "chat",
+        "title": "Informal Chat",
+        "text": "Let's have an informal chat about our shared academic interests. Add me on telegram or whatsapp: +98 937 606 8193"
       },
       {
-        "icon": "phone",
-        "title": "Call us",
-        "text": "Mon-Fri from 8am to 5pm. +01 (555) 000-0000"
+        "icon": "question-circle-fill",
+        "title": "Research Presentation",
+        "text": "Interested in my research? Let's arrange a presentation and discussion."
       }
     ],
     "contactForm": {
-      "title": "Got Ideas? We have got the skills. Lets team up.",
-      "text": "Tell us more about yourself and what you are got in mind."
+      "title": "Get in Touch",
+      "text": "I appreciate your interest in my research and academic journey. Whether you have questions, suggestions, or collaboration ideas, I would love to hear from you. Please use the form below to reach out, and I'll get back to you as soon as possible."
     }
   },
   "footerData": {
