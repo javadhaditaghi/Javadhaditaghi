@@ -101,8 +101,8 @@ const Contact = ({ data }) => {
                 <p>{contactForm.text}</p>
               </div>
               <form onSubmit={onSubmit} id="contact-form" method="POST">
-                <input type="hidden" name="from_name" value="Lilon Macwan" />
-                <input type="hidden" name="replyto" value="custom@gmail.com" />
+                <input type="hidden" name="from_name" value="Javad Haditaghi" />
+                <input type="hidden" name="replyto" value="javadht1990a@gmail.com" />
                 <div className="row gx-3 gy-4">
                   <div className="col-md-6">
                     <div className="form-group">
