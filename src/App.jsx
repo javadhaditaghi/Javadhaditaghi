@@ -13,8 +13,8 @@ const App = () => {
     Aos.init({ once: true });
   }, []);
   return (
-    <BrowserRouter>
-      <Routes>
+    <BrowserRouter basename="/Javadhaditaghi">
+      <Routes >
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
         </Route>
