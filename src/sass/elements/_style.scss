@@ -579,6 +579,15 @@ a {
     }
   }
 }
+.carousel__researches {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  .carousel__researches {
+    font-size: 15px;
+  }
+}
 
 .testimonials-brand {
   margin-top: 80px;

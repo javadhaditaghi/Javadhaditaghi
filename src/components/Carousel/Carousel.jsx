@@ -30,12 +30,12 @@ const Carousel = ({ data }) => {
     return (
       <>
         <SectionHeading title="My Researches" subTitle="Overview" />
-        <div style={{ margin: "0 7vw" }}>
+        <div style={{ margin: "0 5vw" }}>
 
-          <p style={{ fontSize: "20px" }}><MyIcon /> Haditaghi, J., Hassasskhah, J., & Sorahi, M. A. (2020). A network-based approach for discourse analysis from Laclau and Mouffe’s perspectives. <em>Journal of Computer-Assisted Linguistic Research</em>, 4, 1-22. doi:
+          <p className='carousel__researches'><MyIcon /> Haditaghi, J., Hassasskhah, J., & Sorahi, M. A. (2020). A network-based approach for discourse analysis from Laclau and Mouffe’s perspectives. <em>Journal of Computer-Assisted Linguistic Research</em>, 4, 1-22. doi:
             <a href=' https://doi.org/10.4995/jclr.2020.12105' style={{ color: "#ffffff" }}> https://doi.org/10.4995/jclr.2020.12105</a>.</p>
-          <p style={{ fontSize: "20px" }}><MyIcon /> Haditaghi J., Hassaskhah J., & Sorahi M. (2019). Signifier, relation and text: A network-based approach for semantic content analysis, <em>Unpublished</em></p>
-          <p style={{ fontSize: "20px" }}><MyIcon /> J. Haditaghi, Always already: About the motif of différance (2017). <em>Nasour</em>. url: <a href='https://www.nasour.net/1396.04.02/943.html' style={{ color: "#ffffff" }}>https://www.nasour.net/1396.04.02/943.html</a></p>
+          <p className='carousel__researches'><MyIcon /> Haditaghi J., Hassaskhah J., & Sorahi M. (2019). Signifier, relation and text: A network-based approach for semantic content analysis, <em>Unpublished</em></p>
+          <p className='carousel__researches'><MyIcon /> J. Haditaghi, Always already: About the motif of différance (2017). <em>Nasour</em>. url: <a href='https://www.nasour.net/1396.04.02/943.html' style={{ color: "#ffffff" }}>https://www.nasour.net/1396.04.02/943.html</a></p>
 
         </div>
       </>

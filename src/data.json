@@ -6,7 +6,7 @@
   "heroData": {
     "title": "My name<br />is <em>Javad</em> <span><br />Haditaghi</span>",
     "subTitle": "<span>Web Developer</span>, <span>Linguist</span>, <span>Data Analyst</span>",
-    "ImgLink": "/images/home-banner.png",
+    "ImgLink": "/images/output-onlinepngtools-1-1.png",
     "phone": "+98 937 606 8193",
     "email": "javadht1990a@gmail.com",
     "btnText": "Check my CV",
@@ -31,7 +31,7 @@
   },
   "aboutData": {
     "aboutLeft": {
-      "ImgLink": "/images/about-banner.png",
+      "ImgLink": "/images/imgdown.jpeg",
       "name": "Javad Haditaghi",
       "designation": "<span>Web Developer</span>, <span>Linguist</span>, <span>Data Analyst</span>",
       "resumeCv": "/Resume.pdf"
