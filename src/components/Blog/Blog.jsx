@@ -3,6 +3,7 @@ import SectionHeading from "../SectionHeading/SectionHeading";
 import { useState } from 'react';
 import Modal from '../Modal/Modal';
 
+
 const Blog = ({ data }) => {
   // Modal
   const [modal, setModal] = useState(false);
@@ -23,7 +24,7 @@ const Blog = ({ data }) => {
     <section id='blog'>
       <div className="section blog-section bg-dark">
         <div className="container">
-          <SectionHeading title="Our Latest Update" subTitle="Our Blogs" />
+          <SectionHeading title="The summary of my studies" subTitle="My Readings" />
           <div className="row gy-4">
             {
               data.map((element, index) => (

@@ -87,7 +87,7 @@ const Contact = ({ data }) => {
               <div className="google-map" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
                 <div className="ratio ratio-21x9">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3151.840107317064!2d144.955925!3d-37.817214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1520156366883"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d519956.52040278504!2d59.49905921856214!3d36.15049805209619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f6c90ef1e8aebfb%3A0x488788bc9eb65d8c!2sMashhad%20Railway%20Station!5e0!3m2!1sen!2s!4v1718274747378!5m2!1sen!2s"
                     allowFullScreen=""
                   />
                 </div>

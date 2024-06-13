@@ -272,25 +272,50 @@
   ],
   "blogData": [
     {
-      "ImgLink": "/images/blog-1.jpg",
-      "date": "12 July, 2022",
+      "ImgLink": "/images/article_1.png",
+      "date": "12 September, 2020",
       "delay": "700",
-      "title": "12 unique example of portfolio websites",
+      "title": "A Few Useful Things to Know About Machine Learning - Pedro Domingos (Summary)",
       "paragraphList": [
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          {
+              "text": "<b>Learning = Representation + Evaluation + Optimization:</b><br> The choice of model (linear models, decision trees, neural networks) is crucial. Evaluation metrics like accuracy, precision, recall, and AUC assess performance. Optimization methods like gradient descent find the best parameters."
+          },
+          {
+              "text": "<b>Generalization and Overfitting:</b><br> Generalization ensures a model performs well on unseen data. Overfitting occurs when a model learns noise in the training data. Regularization (L1, L2) and dropout techniques help prevent overfitting."
+          },
+          {
+              "text": "<b>The No Free Lunch Theorem:</b><br> No single learning algorithm works best for every problem. The effectiveness depends on the specific problem and dataset, highlighting the importance of experimentation and domain knowledge."
+          },
+          {
+              "text": "<b>The Curse of Dimensionality:</b><br> High-dimensional data can hinder learning. Dimensionality reduction (PCA, t-SNE) and feature selection are essential to manage the volume of the feature space."
+          },
+          {
+              "text": "<b>Bias-Variance Tradeoff:</b><br> Bias is the error due to overly simplistic models, while variance is due to overly complex models. Balancing bias and variance is key to creating robust models, with ensemble methods helping reduce both."
+          },
+          {
+              "text": "<b>Feature Engineering:</b><br> Selecting and transforming variables improves model performance. Techniques include mathematical transformations, interaction features, and domain-specific features."
+          },
+          {
+              "text": "<b>Data Quality:</b><br> High-quality data is crucial for good models. Data cleaning, data augmentation, and ensuring label quality are important steps."
+          },
+          {
+              "text": "<b>Evaluation and Validation:</b><br> Proper evaluation ensures models generalize well. Methods like train/validation/test split and cross-validation provide robust assessments of model performance."
+          },
+          {
+              "text": "<b>Pitfalls in Machine Learning:</b><br> Common pitfalls include data leakage, imbalanced classes, and over-reliance on metrics. Using multiple evaluation metrics and understanding the context helps avoid misleading conclusions."
+          },
+          {
+              "text": "<b>Machine Learning Workflow:</b><br> The workflow includes data collection, preprocessing, model selection, training, evaluation, and deployment. Iterative refinement based on feedback is often necessary."
+          },
+          {
+              "text": "<b>Understanding and Debugging Models:</b><br> Techniques like model interpretability (feature importance, SHAP values), visualization, and diagnostic tools (confusion matrices, ROC curves) help understand and improve model predictions."
+          },
+          {
+            "text": "<b>Further Reading:</b><br><a href='https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf' target='__blank'>A few useful things to know about machine learning</a><br> <a href='https://filipegood.medium.com/summary-of-the-article-a-few-useful-things-to-know-about-machine-learning-by-pedro-domingos-ecf1ef3e6ae9' target='__blank'>Summary of the article “A few useful things to know about machine learning” by Pedro Domingos</a>"
         }
       ]
-    },
+  }
+  ,
     {
       "ImgLink": "/images/blog-2.jpg",
       "date": "11 July, 2022",
