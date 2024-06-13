@@ -1,12 +1,12 @@
 {
   "headerData": {
-    "logoDark": "/images/javad.png",
-    "logoLight": "/images/logo-light.svg"
+    "logoDark": "images/javad.png",
+    "logoLight": "images/logo-light.svg"
   },
   "heroData": {
     "title": "My name<br />is <em>Javad</em> <span><br />Haditaghi</span>",
     "subTitle": "<span>Web Developer</span>, <span>Linguist</span>, <span>Data Analyst</span>",
-    "ImgLink": "/images/output-onlinepngtools-1-1.png",
+    "ImgLink": "images/output-onlinepngtools-1-1.png",
     "phone": "+98 937 606 8193",
     "email": "javadht1990a@gmail.com",
     "btnText": "Check my CV",
@@ -31,7 +31,7 @@
   },
   "aboutData": {
     "aboutLeft": {
-      "ImgLink": "/images/imgdown.jpeg",
+      "ImgLink": "images/imgdown.jpeg",
       "name": "Javad Haditaghi",
       "designation": "<span>Web Developer</span>, <span>Linguist</span>, <span>Data Analyst</span>",
       "resumeCv": "/Resume.pdf"
@@ -123,34 +123,34 @@
       "title": "Data Analysis and NLP",
       "heading": "Tools & Technologies: Pandas, NumPy, PyTorch, Matplotlib, Seaborn, scikit-learn, Keras, Beautiful Soup, Scrapy, Selenium, NLTK",
       "triger": "Two",
-      "imgLink": "/images/dataandnlp.svg",
+      "imgLink": "images/dataandnlp.svg",
       "text": "In my work with Data Analysis and Natural Language Processing (NLP), I utilize advanced tools and technologies such as Pandas, NumPy, PyTorch, Matplotlib, Seaborn, scikit-learn, Keras, Beautiful Soup, Scrapy, Selenium, and NLTK. Leveraging these, I have developed a sophisticated recommendation system for Iranian stores, using AI-trained models and NLP techniques to provide personalized shopping experiences. Additionally, I have trained a deep learning model to accurately predict the best housing prices in various areas of Mashhad, combining deep learning methods with exploratory data analysis to uncover significant market trends and insights."
     },
     {
       "title": "Web Development",
       "heading": "Tools & Technologies: React.js, Next.js, Node.js, HTML, CSS, JavaScript, Sass, Material-UI, Tailwind, Bootstrap, jQuery, Ajax",
       "triger": "One",
-      "imgLink": "/images/WebDeveloper.svg",
+      "imgLink": "images/WebDeveloper.svg",
       "text": "In my work with Web Development, I utilize a diverse set of tools and technologies including React.js, Next.js, Node.js, HTML, CSS, JavaScript, Sass, Material-UI, Tailwind, Bootstrap, jQuery, and Ajax. I have designed and developed the Golden Saffron website using HTML, CSS, JavaScript, Ajax, Bootstrap, and pure PHP, creating a visually appealing and functional online presence. Additionally, I developed a Consumer Magazine website with React and Material-UI, ensuring a dynamic and responsive user interface. I also created a Restaurant dashboard using React and Next.js, delivering a seamless and efficient management platform. These projects, among others, showcase my capability to build robust and engaging web applications."
     },
     
     {
       "title": "Programming Languages",
       "heading": "Tools & Technologies: Python, JavaScript (ES6, ES5) , php, LATEX",
-      "imgLink": "/images/programming.png",
+      "imgLink": "images/programming.png",
       "text": "In my programming endeavors, I utilize a range of languages and technologies including Python, JavaScript (ES6, ES5), PHP, and LaTeX. My Python expertise has been instrumental in developing AI-driven recommendation systems and deep learning models for various applications, such as predicting housing prices and analyzing data trends. I have extensively used JavaScript for front-end development, employing it in projects like the Golden Saffron website and the Consumer Magazine website, utilizing frameworks such as React and Next.js. Additionally, I have leveraged PHP for server-side development in projects like the Golden Saffron website. For documentation and academic writing, I rely on LaTeX to produce professional and well-structured documents."
     },
     {
       "title": "Project Management",
       "heading": "GitHub, GitLab, Trello, Jira, Slack",
       "triger": "Four",
-      "imgLink": "/images/project.png",
+      "imgLink": "images/project.png",
       "text": "In my project management practices, I utilize a variety of tools including GitHub, GitLab, Trello, Jira, and Slack. I primarily use GitHub for version control and collaborative coding, ensuring seamless integration and continuous delivery. Trello is my go-to for task management and organization, allowing me to visualize project progress and prioritize tasks effectively. For team communication and collaboration, I rely on Slack to maintain clear and efficient communication channels, facilitating real-time discussions and updates. These tools enable me to manage projects efficiently, ensuring timely delivery and high-quality outcomes."
     }
   ],
   "portfolioData": [
     {
-      "ImgLink": "/images/meta_js_cert.png",
+      "ImgLink": "images/meta_js_cert.png",
       "subTitle": "META",
       "title": "Programming with JavaScript",
       "link": "https://www.coursera.org/account/accomplishments/verify/EH9JS2FEM925?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
@@ -170,7 +170,7 @@
       ]
     },
     {
-      "ImgLink": "/images/python.png",
+      "ImgLink": "images/python.png",
       "subTitle": "MFT",
       "title": "Python Programming",
       "link": "",
@@ -190,7 +190,7 @@
       ]
     },
     {
-      "ImgLink": "/images/advancedPython.png",
+      "ImgLink": "images/advancedPython.png",
       "subTitle": "MFT",
       "title": "Advanced Python Programming",
       "link": "",
@@ -211,7 +211,7 @@
     }
     ,
     {
-      "ImgLink": "/images/webDesign.png",
+      "ImgLink": "images/webDesign.png",
       "subTitle": "MFT",
       "title": "Web Design",
       "link": "",
@@ -232,7 +232,7 @@
     }
     ,
     {
-      "ImgLink": "/images/services-4.jpg",
+      "ImgLink": "images/services-4.jpg",
       "subTitle": "MFT",
       "title": "React & Material UI",
       "link": "",
@@ -253,7 +253,7 @@
     }
     ,
     {
-      "ImgLink": "/images/udemy_htmlandcss.png",
+      "ImgLink": "images/udemy_htmlandcss.png",
       "subTitle": "MFT",
       "title": "HTML5 & CSS3: Build Websites like a Pro",
       "link": "",
@@ -272,7 +272,7 @@
   ],
   "blogData": [
     {
-      "ImgLink": "/images/article_1.png",
+      "ImgLink": "images/article_1.png",
       "date": "12 September, 2020",
       "delay": "700",
       "title": "A Few Useful Things to Know About Machine Learning - Pedro Domingos (Summary)",
@@ -317,7 +317,7 @@
   }
   ,
     {
-      "ImgLink": "/images/blog-2.jpg",
+      "ImgLink": "images/blog-2.jpg",
       "date": "11 July, 2022",
       "delay": "800",
       "title": "12 unique example of portfolio websites",
@@ -337,7 +337,7 @@
       ]
     },
     {
-      "ImgLink": "/images/blog-3.jpg",
+      "ImgLink": "images/blog-3.jpg",
       "date": "10 July, 2022",
       "delay": "900",
       "title": "12 unique example of portfolio websites",
@@ -357,7 +357,7 @@
       ]
     },
     {
-      "ImgLink": "/images/blog-4.jpg",
+      "ImgLink": "images/blog-4.jpg",
       "date": "10 July, 2022",
       "delay": "1000",
       "title": "12 unique example of portfolio websites",
@@ -398,7 +398,7 @@
       },
       "info": [
         {
-          "imgLink": "/images/golden.png",
+          "imgLink": "images/golden.png",
           "link": "https://www.goldensaffron.com",
           "name": "",
           "designation": "",
@@ -407,7 +407,7 @@
 
         },
         {
-          "imgLink": "/images/cute.png",
+          "imgLink": "images/cute.png",
           "link": "https://www.cutiebeauti.com/",
           "name": "",
           "designation": "",
@@ -415,7 +415,7 @@
           "technologies": "Html, Css, JavaScript, Php"
         },
         {
-          "imgLink": "/images/consumermag.png",
+          "imgLink": "images/consumermag.png",
           "link": "https://theconsumermagazine.com/reviews/",
           "name": "",
           "designation": "",
@@ -424,7 +424,7 @@
         }
         ,
         {
-          "imgLink": "/images/restaurant.png",
+          "imgLink": "images/restaurant.png",
           "link": "https://github.com/javadhaditaghi/restaurant-dashboard-React-",
           "name": "",
           "designation": "",
@@ -433,7 +433,7 @@
         }
         ,
         {
-          "imgLink": "/images/housing.png",
+          "imgLink": "images/housing.png",
           "link": "https://github.com/javadhaditaghi/restaurant-dashboard-React-",
           "name": "",
           "designation": "",
@@ -442,7 +442,7 @@
         }
         ,
         {
-          "imgLink": "/images/noise.jpg",
+          "imgLink": "images/noise.jpg",
           "link": "https://github.com/javadhaditaghi/restaurant-dashboard-React-",
           "name": "",
           "designation": "",
@@ -478,22 +478,22 @@
       },
       "info": [
         {
-          "imgLink": "/images/brand-1.png"
+          "imgLink": "images/brand-1.png"
         },
         {
-          "imgLink": "/images/brand-2.png"
+          "imgLink": "images/brand-2.png"
         },
         {
-          "imgLink": "/images/brand-3.png"
+          "imgLink": "images/brand-3.png"
         },
         {
-          "imgLink": "/images/brand-4.png"
+          "imgLink": "images/brand-4.png"
         },
         {
-          "imgLink": "/images/brand-1.png"
+          "imgLink": "images/brand-1.png"
         },
         {
-          "imgLink": "/images/brand-2.png"
+          "imgLink": "images/brand-2.png"
         }
       ]
     }
@@ -523,7 +523,7 @@
     }
   },
   "footerData": {
-    "ImgLink": "/images/about-banner.png",
+    "ImgLink": "images/about-banner.png",
     "name": "Javad Haditaghi"
   },
   "socialData": [
