@@ -33,7 +33,7 @@ const Portfolio = ({ data }) => {
                 <div className="col-lg-6" key={index}>
                   <div className="work-box">
                     <div className="work-img" onClick={() => getData(element.ImgLink, element.title, element.subTitle, element.paragraphList)}>
-                      <img src={element.ImgLink} title="" alt="protfolio image" />
+                      <img src={element.ImgLink && element.ImgLink.trim() ? element.ImgLink : "images/img_not_found_narrow.jpg"} title="" alt="protfolio image" />
                     </div>
                     <div className="work-text">
                       <h6>{element.subTitle}</h6>
@@ -51,7 +51,7 @@ const Portfolio = ({ data }) => {
           </div>
         </div>
       </div>
-      {modal === true ? <Modal img={tempData[1]} title={tempData[2]} subTitle={tempData[3]} paraList={tempData[4]} modalClose={modalClose} /> : ""}
+      {modal === true ? <Modal img={tempData[1] && tempData[1].trim() ? tempData[1] : "images/img_not_found_narrow.jpg"} title={tempData[2]} subTitle={tempData[3]} paraList={tempData[4]} modalClose={modalClose} /> : ""}
     </section>
   )
 }

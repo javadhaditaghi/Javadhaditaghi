@@ -15,7 +15,7 @@ const Modal = ({ img, title, date, subTitle, paraList, modalClose }) => {
         <button className="position-absolute top-0 end-0 text-white border-0 bg-transparent" onClick={modalClose}> <Icon icon="ic:round-close" /></button>
         <div className="single-blog-box">
           <div className="single-blog-img">
-            <img src={img} title="" alt="" />
+            <img src={img} title="" alt="" style={{ width: "100%" }} />
           </div>
           <div className="single-blog-content">
             {date && <h6>{date}</h6>}

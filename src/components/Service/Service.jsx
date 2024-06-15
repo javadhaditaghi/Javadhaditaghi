@@ -2,6 +2,8 @@ import PropTypes from 'prop-types';
 import SectionHeading from '../SectionHeading/SectionHeading';
 
 const Service = ({ data }) => {
+
+
   return (
     <section id="services" className="section services-section bg-dark">
       <div className="container">
@@ -40,7 +42,7 @@ const Service = ({ data }) => {
                     <div className="col-sm-6 col-md-4">
                       <div className="s-img">
                         <img
-                          src={element.imgLink}
+                          src={element.imgLink && element.imgLink.trim() ? element.imgLink : "images/img_not_found_narrow.jpg"}
                           title=""
                           alt="Service Image"
                         />
