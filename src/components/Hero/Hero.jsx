@@ -28,7 +28,7 @@ const Hero = ({ data }) => {
         <div className="row  min-vh-100 align-items-center">
           <div className="col-lg-7 col-xl-7 col-xxl-6">
             <div className="hb-text">
-              <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">{perser(title)}</h1>
+              <h1 className='hereo__header' data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">{perser(title)}</h1>
               <p className="lead" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">{perser(subTitle)}</p>
               <div className="btn-bar" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
                 <ScrollLink to="contact" spy={true} className="px-btn">
@@ -43,7 +43,7 @@ const Hero = ({ data }) => {
           </div>
         </div>
       </div>
-      <div className="hb-me" style={{ backgroundImage: `url(${ImgLink})` }} data-aos="fade-left" data-aos-duration="800" data-aos-delay="800"/>
+      <div className="hb-me" style={{ backgroundImage: `url(${ImgLink})` }} data-aos="fade-left" data-aos-duration="800" data-aos-delay="800" />
       <div className="social-fix">
         <div className="social-links" >
           {

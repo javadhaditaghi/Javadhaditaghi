@@ -197,6 +197,17 @@ a {
     margin: 18px 0 0;
   }
 }
+@media screen and (max-width: 975px) {
+  .btn-bar {
+    margin-top: 200px;
+  }
+  .hereo__header {
+    margin-top: -25px;
+  }
+  .info-bar {
+    padding-top: 20px !important;
+  }
+}
 
 .about-bio {
   max-width: 600px;
