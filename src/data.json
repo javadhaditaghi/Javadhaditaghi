@@ -404,7 +404,7 @@
         ,
         {
           "imgLink": "images/housing.png",
-          "link": "https://github.com/javadhaditaghi/restaurant-dashboard-React-",
+          "link": "https://github.com/javadhaditaghi/housing_price_mashhad",
           "name": "",
           "designation": "",
           "text": "The Analysis of Housing Prices in Mashhad", 
@@ -413,7 +413,7 @@
         ,
         {
           "imgLink": "images/noise.jpg",
-          "link": "https://github.com/javadhaditaghi/restaurant-dashboard-React-",
+          "link": "https://github.com/javadhaditaghi/picture-noise-remover",
           "name": "",
           "designation": "",
           "text": "Picture Noise Remover", 
